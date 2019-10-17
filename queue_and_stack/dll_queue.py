@@ -16,7 +16,6 @@ class Queue:
         
 
     def dequeue(self):
-        print(self.size)
         if self.size == 0:
             return None
         else: 

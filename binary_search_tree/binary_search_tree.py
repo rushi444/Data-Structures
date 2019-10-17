@@ -89,7 +89,11 @@ class BinarySearchTree:
 
         while stack.len() > 0:
             current = stack.pop()
- 
+            print(current.value)
+            if current.left:
+                stack.push(current.left)
+            if current.right:
+                stack.push(current.right)
 
     # STRETCH Goals -------------------------
     # Note: Research may be required

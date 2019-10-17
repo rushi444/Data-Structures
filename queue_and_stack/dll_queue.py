@@ -16,7 +16,6 @@ class Queue:
         
 
     def dequeue(self):
-        print(self.size)
         if self.size == 0:
             return None
         else: 
@@ -26,5 +25,3 @@ class Queue:
     def len(self):
         return self.size
     
-    def __repr__(self):
-        return (f'{Queue}')

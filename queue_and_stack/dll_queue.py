@@ -26,5 +26,3 @@ class Queue:
     def len(self):
         return self.size
     
-    def __repr__(self):
-        return (f'{Queue}')
